@@ -1,0 +1,9 @@
+DB_HOST='localhost'
+DB_NAME='phpMqDatabase'
+DB_USER='root'
+DB_PASS=''
+
+DB_QUEUE_TABLE='mqueue'
+DB_EVENT_TABLE='mqevent'
+
+LOG_DIR='./logs'

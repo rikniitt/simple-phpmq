@@ -1,0 +1,9 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+set -a
+source $DIR/../config.file
+set +a
+
+/usr/bin/php $DIR/worker.php

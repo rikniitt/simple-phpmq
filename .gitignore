@@ -1,0 +1,9 @@
+*.log
+*~
+*.lock
+*.bak
+
+config.file
+
+Vagrantfile
+.vagrant/
